@@ -64,7 +64,7 @@ def add_s(array)
       things = "#{thing}s"
       new_array.push(things)
     end
-    i+=
+    
   end
   return new_array
 end
