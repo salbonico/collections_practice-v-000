@@ -43,4 +43,5 @@ def find_a(array)
    new_array.push(word)
  end
 end
+return new_array
 end
