@@ -35,3 +35,11 @@ new_array = []
   end
 return new_array
 end
+
+def find_a(array)
+ new_array = []
+ array.each do |number|
+ if number.start_with?("a")
+   new_array.push(number)
+ end
+ end
