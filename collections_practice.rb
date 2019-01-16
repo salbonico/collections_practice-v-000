@@ -38,9 +38,9 @@ end
 
 def find_a(array)
  new_array = []
- array.each do |number|
- if number.start_with?("a") == true
-   new_array.push(number)
+ array.each do |word|
+ if word.start_with?("a") == true
+   new_array.push(word)
  end
 end
 end
