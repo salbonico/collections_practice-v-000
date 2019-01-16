@@ -58,13 +58,13 @@ def add_s(array)
   new_array = []
   i = 0
   array.each do |thing|
-    if i = 1
+    if i == 1
       new_array.push(thing)
     else
       things = "#{thing}s"
       new_array.push(things)
     end
-
+  i+=1
   end
   return new_array
 end
