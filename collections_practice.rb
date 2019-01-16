@@ -31,7 +31,7 @@ new_array = []
     temp = thing.split
     temp[2] = "$"
     word = temp.join
-    new_array.push(temp)
+    new_array.push(word)
   end
 return new_array
 end
