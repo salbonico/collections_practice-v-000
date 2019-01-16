@@ -24,3 +24,13 @@ def reverse_array(array)
 new_array = array.reverse
 return new_array
 end
+
+def kesha_maker(array)
+new_array = []
+  array.each do |thing|
+    temp = thing.split
+    temp[2] = "$"
+    new_array.push(temp)
+  end
+return new_array
+end
