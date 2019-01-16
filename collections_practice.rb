@@ -61,7 +61,7 @@ def add_s(array)
     if i = 1
       new_array.push(thing)
     else
-      things = thing+="s"
+      things = "#{thing}s"
       new_array.push(things)
     end
   end
