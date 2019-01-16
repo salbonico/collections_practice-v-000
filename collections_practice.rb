@@ -30,6 +30,7 @@ new_array = []
   array.each do |thing|
     temp = thing.split
     temp[2] = "$"
+    word = temp.join
     new_array.push(temp)
   end
 return new_array
