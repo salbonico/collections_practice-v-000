@@ -42,3 +42,5 @@ def find_a(array)
  if number.start_with?("a")
    new_array.push(number)
  end
+end
+end
